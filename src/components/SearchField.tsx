@@ -28,7 +28,7 @@ export default function SearchField(): JSX.Element {
 
     try {
       const response = await axios.post(
-        "https://europe-central2-our-chess-427315-e5.cloudfunctions.net/puppeteer-scrape",
+        "",
         keyword
       );
       console.log(response.data);
